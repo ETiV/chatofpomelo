@@ -13,7 +13,7 @@ app.configure('production|development', function() {
 	app.route('chat', routeUtil.chat);
 
 	// filter configures
-	app.filter(pomelo.timeout());
+	// app.filter(pomelo.timeout());
 });
 
 // start app
